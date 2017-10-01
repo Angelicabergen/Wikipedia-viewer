@@ -1,0 +1,58 @@
+.container-fluid{
+    min-height: 100vh;
+    background-image: url(https://images.pexels.com/photos/382424/pexels-photo-382424.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.title{
+    color: whitesmoke;
+    font-family: "verdana", Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 52px;
+}
+.button-style{
+    text-align: right;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 125%;
+    position:relative;
+    margin: 10px;
+}
+#termInput{
+    background-color: white;
+    color:black;
+    border-width: 0px;
+    border-radius: 10px;
+    outline: 0;
+    width: 400px;
+    padding: 10px;
+}
+.list-style{
+    width: 70%;
+    margin: auto;
+}
+.list-result-style{
+    padding: 10px;
+    display: block;
+    margin: 4px;
+    font-family: "verdana", Arial, Helvetica, sans-serif;
+    opacity: .85;
+    background-color: grey;
+    color: black;
+    font-size: 18px;
+}
+.list-result-style:hover{
+    background-color: #00688B;
+    color: white;
+}
+.list-group-item a{
+    color: black;
+    font-weight: bold;
+}
+.list-group-item a:hover{
+    color: white;
+    font-weight: bold;
+}
